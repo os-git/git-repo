@@ -58,6 +58,11 @@ $(document).ready(function() {
 		ConEvents.goal_2();
 	});
 
+	// Цель 3
+	body.on('click', '.form.coupon .btn', function(event) {
+		ConEvents.goal_3();
+	});
+
 });
 
 /* END Analytics - conversion events and goals */
